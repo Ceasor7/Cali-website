@@ -1,17 +1,12 @@
 import ButtonLink from 'components/atoms/Button/ButtonLink'
 import LineDivider from 'components/atoms/LineDivider'
-import FeatureCard from 'components/molecules/Card/FeatureCard'
 import PageSentence from 'components/molecules/PageSentence'
 import PricingCard from 'components/molecules/Card/PricingCard'
-import ProjectCard from 'components/molecules/Card/ProjectCard'
 import SectionSentence from 'components/molecules/SectionSentence'
-import NavBar from 'components/organisms/NavBar'
 import LogoList from 'components/organisms/LogoList'
-
 import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
-import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
 import TeamCard from 'components/molecules/Card/TeamCard'
 const Home = () => {
   return (
